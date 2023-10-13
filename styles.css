@@ -1,0 +1,80 @@
+*{
+background-color: lightblue;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+}
+
+    
+#list{
+   color: grey;
+   margin-left: 100px;
+   font-size: 15px;
+   
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: 100%;
+      
+  }
+}
+
+.headings{
+text-align: center;
+}
+
+h1{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+} 
+
+#dogPerson{
+    text-align: center;
+}
+
+#catPerson{
+    text-align: center;
+}
+
+
+
+
+
+#cat-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 50px;
+    float: left;
+}
+
+#dog-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 50px;
+    float: right;
+}
+
+
+#cattext{
+    border: dotted 5px lightpink ;
+    border-radius: 5%;
+    text-align: left;
+    
+    
+}
+
+#dogtext{
+    border: dotted 5px grey;
+    border-radius: 5%;
+    text-align: left;
+}
